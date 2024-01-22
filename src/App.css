@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s; /* Adiciona transição para uma mudança suave de tema */
+}
+
+/* Adicione estilos para o tema claro */
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Adicione estilos para o tema escuro */
+body.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Adicione estilos específicos para o cabeçalho, postagens e outros elementos conforme necessário */
